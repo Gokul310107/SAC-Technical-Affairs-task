@@ -1,5 +1,5 @@
 # SAC-Technical-Affairs-task
-# SAVARA 2026 - Technical Event Hub Landing Page
+# TECHRAL 2026 - Technical Event Hub Landing Page
 
 This is a single-page web application built as an assignment submission for the SAC Technical Affairs Team at IIITDM Kancheepuram.
 
