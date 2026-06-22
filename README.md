@@ -9,4 +9,4 @@ This is a single-page web application built as an assignment submission for the 
 - **Registration Form** with structured inputs and logic that sanitizes/logs entries directly to the developer browser console.
 
 ## Live Deployment Link:
-👉 [Click here to view the live website]https://gokul310107.github.io/SAC-Technical-Affairs-task/
+👉 [Click here to view the live website](https://gokul310107.github.io/SAC-Technical-Affairs-task/)
