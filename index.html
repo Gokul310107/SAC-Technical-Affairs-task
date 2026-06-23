@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TECHRAL 2026 | IIITDM Kancheepuram</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navigation-hub">
+        <div class="brand-signature">
+            <span class="blossom-token"></span>
+            <span class="brand-text">IIITDM - TECHRAL</span>
+        </div>
+        <div class="hub-links">
+            <a href="#schedule" class="hub-anchor">Schedule</a>
+            <a href="#register" class="hub-cta">Register Now</a>
+        </div>
+    </nav>
+
+    <header class="workspace-hero">
+        <div class="hero-split-left">
+            <div class="status-ribbon">🌸 Spring Session Launch Window Open</div>
+            <h1>The Next Bloom of <span class="petal-gradient">Innovation.</span></h1>
+            <p class="hero-paragraph">Where clean code meets creative engineering. Join us to collaborate across departments, build brilliant modules, and level up your skills alongside the best minds at IIITDM.</p>
+            
+            <div class="action-dock">
+                <a href="#register" class="action-btn action-primary">Secure Seat Node</a>
+                <a href="#schedule" class="action-btn action-secondary">Explore Schedule</a>
+            </div>
+        </div>
+
+        <div class="hero-split-right">
+            <div class="clock-envelope jumbo-version">
+                <div class="clock-envelope-banner">
+                    <span class="pulse-node"></span>
+                    <p>EVENT REGISTRATION CLOSING IN</p>
+                </div>
+                <div class="clock-digits-grid">
+                    <div class="digit-box"><span id="days">00</span><label>Days</label></div>
+                    <div class="digit-box"><span id="hours">00</span><label>Hours</label></div>
+                    <div class="digit-box"><span id="mins">00</span><label>Mins</label></div>
+                    <div class="digit-box"><span id="secs">00</span><label>Secs</label></div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="schedule" class="timeline-arena">
+        <div class="arena-header">
+            <h2>Event Schedule</h2>
+            <p class="arena-subtitle">Toggle individual phase columns to filter incoming live sessions.</p>
+            
+            <div class="pill-switch-group">
+                <button class="pill-trigger active" onclick="switchDay('day0')">Day 0</button>
+                <button class="pill-trigger" onclick="switchDay('day1')">Day 1</button>
+                <button class="pill-trigger" onclick="switchDay('day2')">Day 2</button>
+            </div>
+        </div>
+        
+        <div id="day0" class="track-manifest active">
+            <div class="deck-row">
+                <div class="deck-card prime-card">
+                    <div class="card-meta-bar">
+                        <span class="pill-badge ceremony-badge">Ceremony</span>
+                        <span class="time-stamp">04:00 PM - Basketball Court</span>
+                    </div>
+                    <h3>Opening Ceremony</h3>
+                    <p class="card-blurb">Gathering of internal delegates, opening technical presentations, and lighting ceremonies across departments.</p>
+                </div>
+                <div class="deck-card">
+                    <div class="card-meta-bar">
+                        <span class="pill-badge open-badge">Open Track</span>
+                        <span class="time-stamp">06:00 PM - Campus Wide</span>
+                    </div>
+                    <h3>Treasure Hunt</h3>
+                    <p class="card-blurb">A distributed riddle search taking place across the intranet space to uncover encrypted flags.</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="day1" class="track-manifest">
+            <div class="deck-row">
+                <div class="deck-card prime-card">
+                    <div class="card-meta-bar">
+                        <span class="pill-badge tech-badge">Dev Sprint</span>
+                        <span class="time-stamp">09:00 AM - H05</span>
+                    </div>
+                    <h3>The 24Hr Hackathon</h3>
+                    <p class="card-blurb">Build out a viable hardware or software mockup addressing infrastructure and green technology domains.</p>
+                </div>
+                <div class="deck-card">
+                    <div class="card-meta-bar">
+                        <span class="pill-badge sec-badge">Security</span>
+                        <span class="time-stamp">11:30 AM - H25</span>
+                    </div>
+                    <h3>Capture The Flag</h3>
+                    <p class="card-blurb">A high-intensity sandbox built for white-hat penetration testing and digital vulnerability audits.</p>
+                </div>
+                <div class="deck-card">
+                    <div class="card-meta-bar">
+                        <span class="pill-badge creative-badge">Creative</span>
+                        <span class="time-stamp">04:30 PM - Open air Theatre (OAT)</span>
+                    </div>
+                    <h3>Battle of Bands</h3>
+                    <p class="card-blurb">Unwind with musical setups, student vocal groups, and artistic soundscape displays.</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="day2" class="track-manifest">
+            <div class="deck-row">
+                <div class="deck-card">
+                    <div class="card-meta-bar">
+                        <span class="pill-badge tech-badge">Dev Sprint</span>
+                        <span class="time-stamp">10:00 AM - H05</span>
+                    </div>
+                    <h3>Hackathon Project Results</h3>
+                    <p class="card-blurb">Present your code and active hardware dashboards directly before industrial evaluators.</p>
+                </div>
+                <div class="deck-card">
+                    <div class="card-meta-bar">
+                        <span class="pill-badge creative-badge">Creative</span>
+                        <span class="time-stamp">02:30 PM - Exhibition Hall</span>
+                    </div>
+                    <h3>Dance Fest</h3>
+                    <p class="card-blurb">High energy stage acts and sync dance showcase featuring individual university crews.</p>
+                </div>
+                <div class="deck-card prime-card">
+                    <div class="card-meta-bar">
+                        <span class="pill-badge ceremony-badge">Ceremony</span>
+                        <span class="time-stamp">06:00 PM - Senate Hall</span>
+                    </div>
+                    <h3>Closing Ceremony & Grant Awards</h3>
+                    <p class="card-blurb">The final wrap-up, feedback reporting, and distribution of merit certificates and cash prizes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="register" class="enrollment-territory">
+        <div class="enrollment-card">
+            <div class="enrollment-narrative">
+                <h2>Register Your Attendance Portal</h2>
+                <p>Authenticate your university student node profile to reserve secure access slots across upcoming development blocks.</p>
+                <div class="validation-stamp">🛡️ Authorized IIITDM Registration System</div>
+            </div>
+            
+            <form id="regForm" class="enrollment-form">
+                <div class="form-row-node">
+                    <label for="username">Student Full Name</label>
+                    <input type="text" id="username" placeholder="e.g., Sam" required>
+                </div>
+                <div class="form-row-node">
+                    <label for="email">Academic Email Identity</label>
+                    <input type="email" id="email" placeholder="student@iiitdm.ac.in" required>
+                </div>
+                <div class="form-row-node">
+                    <label for="rollno">University Roll Code</label>
+                    <input type="text" id="rollno" placeholder="e.g., CS25B1046" required>
+                </div>
+                <button type="submit" class="action-btn action-primary block-btn">Finalize Registry Entry</button>
+            </form>
+        </div>
+    </section>
+
+    <div id="customModal" class="alert-lightbox">
+        <div class="alert-dialog-box">
+            <div class="alert-checkmark">✓</div>
+            <h3>Registration Record Mapped</h3>
+            <p>Your academic identity row has updated cleanly within the local development browser log file directory.</p>
+            <button id="closeModalBtn" class="action-btn action-primary">Continue</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
